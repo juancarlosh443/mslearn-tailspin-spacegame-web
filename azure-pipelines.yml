@@ -1,8 +1,8 @@
-
 trigger:
--main
+- main
 
-pool: MyAgentPool
+pool:
+  vmImage: 'ubuntu-latest'
 
 steps:
-- bash: echo hello world
+- script: echo Hello, World!
